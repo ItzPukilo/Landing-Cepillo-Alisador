@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="es-EC">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cepillo Alisador Plancha Multifuncional - Cabello liso sin frizz en minutos</title>
+<meta name="description" content="Cepillo alisador profesional con tecnologia de calor inteligente. Alisado tipo salon desde casa. Pago contra entrega en todo Ecuador.">
+
+<!-- ============================================================ -->
+<!-- PIXEL DE META -->
+<!-- ============================================================ -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1411889667740244');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1411889667740244&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg-warm: #FAF7F2;
+    --bg-soft: #F1EBE0;
+    --ink: #1F2A24;
+    --ink-soft: #5C6B60;
+    --green: #1B4332;
+    --green-dark: #10291F;
+    --green-pale: #DCE8E0;
+    --gold: #C9A15E;
+    --gold-soft: #E8D8B8;
+    --white: #FFFFFF;
+    --radius-card: 14px;
+    --radius-pill: 999px;
+    --max-w: 480px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--topbar-h, 38px) + env(safe-area-inset-top, 0px));
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-warm);
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    line-height: 1.15;
+    color: var(--ink);
+  }
+
+  .wrap {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 22px;
+  }
+
+  img { max-width: 100%; display: block; }
+
+  /* ---------- Barra superior fija con efecto marquee ---------- */
+  .topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: var(--green-dark);
+    color: var(--white);
+    padding-top: env(safe-area-inset-top, 0px);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .topbar-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 16s linear infinite;
+    padding: 9px 0;
+  }
+  .topbar-track span {
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    padding: 0 28px;
+    flex-shrink: 0;
+    color: var(--gold-soft);
+  }
+  .topbar-track span::after {
+    content: "\2022";
+    margin-left: 28px;
+    opacity: 0.7;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .topbar-track { animation: none; }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    padding: 34px 0 26px;
+    margin-top: var(--topbar-h, 38px);
+  }
+  .hero-eyebrow {
+    color: var(--green);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .hero h1 {
+    font-size: 32px;
+    letter-spacing: -0.3px;
+    margin-bottom: 14px;
+  }
+  .hero p.sub {
+    font-size: 16.5px;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+    max-width: 42ch;
+  }
+  .hero-media {
+    border-radius: var(--radius-card);
+    overflow: hidden;
+    background: linear-gradient(160deg, var(--green-pale), var(--bg-soft));
+    aspect-ratio: 4/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .hero-media img { width: 100%; height: 100%; object-fit: cover; }
+  .hero-media .placeholder-label {
+    font-family: 'Inter', sans-serif;
+    color: var(--green);
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 10px;
+  }
+  .hero-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .hero-price-old {
+    font-size: 18px;
+    color: var(--ink-soft);
+    text-decoration: line-through;
+  }
+  .hero-price-new {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    color: var(--green);
+    font-weight: 600;
+  }
+  .hero-badges {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 22px;
+  }
+  .badge {
+    font-size: 12.5px;
+    background: var(--bg-soft);
+    color: var(--green);
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+    border: 1px solid var(--gold-soft);
+    box-shadow: 0 0 0 0 rgba(201,161,94,0.5);
+    animation: badge-glow 2.6s ease-in-out infinite;
+  }
+  .badge:nth-child(2) { animation-delay: 0.3s; }
+  .badge:nth-child(3) { animation-delay: 0.6s; }
+  @keyframes badge-glow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(201,161,94,0.35); }
+    50% { box-shadow: 0 0 8px 2px rgba(201,161,94,0.35); }
+  }
+
+  /* ---------- BOTONES ---------- */
+  .btn-cta {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: var(--green);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 17px 20px;
+    border: none;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.15s ease, transform 0.1s ease;
+  }
+  .btn-cta:active { transform: scale(0.98); }
+  .btn-cta:hover { background: var(--green-dark); }
+  .btn-cta .price-strike {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 2px;
+    color: var(--gold-soft);
+  }
+
+  /* ---------- SECCIONES GENERALES ---------- */
+  section { padding: 38px 0; }
+  .section-soft { background: var(--bg-soft); }
+  .section-ink {
+    background: var(--green-dark);
+    color: var(--white);
+  }
+  .section-ink h2 { color: var(--white); }
+
+  h2.section-title {
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+
+  /* ---------- PROBLEMA ---------- */
+  .pain-list { list-style: none; display: flex; flex-direction: column; gap: 14px; }
+  .pain-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 15.5px;
+    color: var(--ink-soft);
+  }
+  .pain-item .x-mark {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #EFE0D4;
+    color: #A15E2E;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 1px;
+  }
+
+  /* ---------- BENEFICIOS ---------- */
+  .benefit-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .benefit {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .benefit .check-mark {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--green);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .benefit h3 {
+    font-size: 16.5px;
+    margin-bottom: 3px;
+  }
+  .benefit p {
+    font-size: 14.5px;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- TECNOLOGIA / FOTO PRODUCTO ---------- */
+  .product-shot {
+    border-radius: var(--radius-card);
+    overflow: hidden;
+    margin-bottom: 22px;
+    background: var(--bg-soft);
+    aspect-ratio: 16/10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-shot img { width: 100%; height: 100%; object-fit: cover; }
+  .product-shot .placeholder-label {
+    font-family: 'Inter', sans-serif;
+    color: var(--green);
+    font-size: 13.5px;
+    text-align: center;
+    padding: 16px;
+  }
+
+  /* ---------- SPECS (tabla) ---------- */
+  .specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .specs-table tr { border-bottom: 1px solid var(--green-pale); }
+  .specs-table tr:last-child { border-bottom: none; }
+  .specs-table td { padding: 11px 0; }
+  .specs-table td:first-child {
+    color: var(--ink-soft);
+    font-weight: 500;
+    width: 42%;
+  }
+  .specs-table td:last-child {
+    color: var(--ink);
+    font-weight: 600;
+    text-align: right;
+  }
+
+  /* ---------- COMO FUNCIONA ---------- */
+  .steps { display: flex; flex-direction: column; gap: 20px; }
+  .step { display: flex; gap: 14px; align-items: flex-start; }
+  .step-num {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1.5px solid var(--green);
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+  }
+  .step h3 { font-size: 16px; margin-bottom: 2px; }
+  .step p { font-size: 14px; color: var(--ink-soft); }
+
+  /* ---------- IDEAL PARA (chips) ---------- */
+  .ideal-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+  }
+  .ideal-chip {
+    background: var(--white);
+    border: 1.5px solid var(--green-pale);
+    color: var(--ink);
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 9px 14px;
+    border-radius: var(--radius-pill);
+  }
+
+  /* ---------- Animación de aparición al hacer scroll ---------- */
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+  noscript ~ .reveal,
+  .no-js .reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ---------- OFERTA ---------- */
+  .offer-box {
+    background: var(--white);
+    border: 1.5px solid var(--gold-soft);
+    border-radius: var(--radius-card);
+    padding: 24px 20px;
+    text-align: center;
+  }
+  .offer-box .old-price {
+    font-size: 15px;
+    color: var(--ink-soft);
+    text-decoration: line-through;
+  }
+  .offer-box .new-price {
+    font-family: 'Fraunces', serif;
+    font-size: 42px;
+    color: var(--green);
+    margin: 4px 0 2px;
+  }
+  .offer-box .offer-note {
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+  }
+  .stock-note {
+    font-size: 13px;
+    color: #A15E2E;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+
+  /* ---------- FORMULARIO ---------- */
+  #pedido {
+    background: linear-gradient(180deg, var(--bg-soft), var(--bg-warm));
+  }
+  .form-card {
+    background: var(--white);
+    border-radius: var(--radius-card);
+    padding: 22px 20px 24px;
+    box-shadow: 0 4px 24px rgba(31,42,36,0.07);
+  }
+  .field { margin-bottom: 14px; }
+  .field label {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .field input, .field select {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 15.5px;
+    padding: 13px 14px;
+    border: 1.5px solid var(--green-pale);
+    border-radius: 10px;
+    background: var(--bg-warm);
+    color: var(--ink);
+  }
+  .field input:focus, .field select:focus {
+    outline: none;
+    border-color: var(--green);
+  }
+  .field-row { display: flex; gap: 10px; }
+  .field-row .field { flex: 1; }
+  .form-note {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    text-align: center;
+    margin-top: 12px;
+  }
+  .form-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0;
+  }
+  .form-divider::before, .form-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--green-pale);
+  }
+  .form-divider span {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+  .btn-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    text-align: center;
+    background: var(--white);
+    color: #25925A;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    padding: 13px 18px;
+    border: 1.5px solid #B8E0C8;
+    border-radius: var(--radius-pill);
+    text-decoration: none;
+    transition: background 0.15s ease, transform 0.1s ease;
+  }
+  .btn-whatsapp:active { transform: scale(0.98); }
+  .btn-whatsapp:hover { background: #F0FAF4; }
+  .btn-whatsapp svg { width: 17px; height: 17px; flex-shrink: 0; }
+  #form-status {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+  }
+  #form-status.error {
+    display: block;
+    background: #F5E4D8;
+    color: #A15E2E;
+  }
+
+  /* ---------- FAQ ---------- */
+  .faq-item {
+    border-bottom: 1px solid var(--green-pale);
+    padding: 16px 0;
+  }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item h3 {
+    font-size: 15.5px;
+    margin-bottom: 6px;
+  }
+  .faq-item p {
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- IMPORTANTE (aviso) ---------- */
+  .notice-box {
+    background: var(--bg-soft);
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+  }
+  .notice-box ul { list-style: none; margin-top: 6px; }
+  .notice-box li { margin-bottom: 4px; }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    text-align: center;
+    padding: 26px 22px 40px;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- CTA FLOTANTE (mobile) ---------- */
+  .sticky-cta {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    background: rgba(250,247,242,0.95);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid var(--green-pale);
+    z-index: 50;
+  }
+  .sticky-cta .btn-cta { font-size: 15.5px; padding: 14px 16px; }
+  body { padding-bottom: 78px; }
+
+  /* ---------- OVERLAY DE CARGA ---------- */
+  .loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(16, 41, 31, 0.6);
+    backdrop-filter: blur(2px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .loading-overlay.is-visible { display: flex; }
+  .loading-spinner {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 4px solid rgba(255,255,255,0.3);
+    border-top-color: var(--gold);
+    animation: spin 0.8s linear infinite;
+  }
+  .loading-overlay p {
+    color: var(--white);
+    font-size: 14.5px;
+    font-weight: 600;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .loading-spinner { animation: spin 1.4s linear infinite; }
+    .btn-cta { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar" id="topbar">
+  <div class="topbar-track">
+    <span>Pago contra entrega</span>
+    <span>Envío a todo Ecuador</span>
+    <span>Pago contra entrega</span>
+    <span>Envío a todo Ecuador</span>
+  </div>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <p class="hero-eyebrow">Alisado profesional en casa</p>
+    <h1>Cabello liso, brillante y sin frizz desde la primera pasada</h1>
+    <p class="sub">El cepillo alisador con tecnología de calor inteligente que da un acabado tipo salón, cuidando tu cabello en cada pasada.</p>
+
+    <div class="hero-media">
+      <!-- Sube aqui tu imagen: la principal (frente/lateral del cepillo) -->
+      <div class="placeholder-label">[ Imagen principal del producto aquí:<br>ej. "producto-principal.jpg" ]</div>
+    </div>
+
+    <div class="hero-price">
+      <span class="hero-price-old">$39.99</span>
+      <span class="hero-price-new">$25.00</span>
+    </div>
+
+    <div class="hero-badges">
+      <span class="badge">Pago al recibir</span>
+      <span class="badge">Calienta en 3-5 min</span>
+      <span class="badge">Voltaje universal</span>
+    </div>
+
+    <a href="#pedido" class="btn-cta">Yo quiero el mío</a>
+  </div>
+</section>
+
+<!-- ================= PROBLEMA ================= -->
+<section class="section-soft reveal">
+  <div class="wrap">
+    <h2 class="section-title">¿Te suena familiar?</h2>
+    <ul class="pain-list">
+      <li class="pain-item"><span class="x-mark">&times;</span> Las planchas comunes reparten mal el calor y maltratan tu cabello.</li>
+      <li class="pain-item"><span class="x-mark">&times;</span> El frizz vuelve apenas sales de casa, sin importar cuánto te esfuerces.</li>
+      <li class="pain-item"><span class="x-mark">&times;</span> Ir al salón cada semana es caro y toma tiempo que no tienes.</li>
+      <li class="pain-item"><span class="x-mark">&times;</span> Las puntas se resecan y abren con el uso constante de calor mal regulado.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= SOLUCION + BENEFICIOS ================= -->
+<section class="reveal">
+  <div class="wrap">
+    <h2 class="section-title">La solución: calor inteligente que cuida tu cabello</h2>
+    <div class="product-shot">
+      <!-- Sube aqui una foto de las cerdas/placa ceramica de cerca -->
+      <div class="placeholder-label">[ Foto de cerca de las cerdas/placa cerámica<br>ej. "detalle-cerdas.jpg" ]</div>
+    </div>
+    <p style="font-size:14.5px; color:var(--ink-soft); margin-bottom:22px;">Sus dientes calefactores 3D y placas cerámicas distribuyen el calor sin puntos calientes que dañen el cabello.</p>
+    <div class="benefit-grid">
+      <div class="benefit">
+        <span class="check-mark">&check;</span>
+        <div>
+          <h3>Alisado rápido y uniforme</h3>
+          <p>Resultados desde la primera pasada.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="check-mark">&check;</span>
+        <div>
+          <h3>Menos frizz, más brillo</h3>
+          <p>Cuida la fibra capilar en cada uso.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="check-mark">&check;</span>
+        <div>
+          <h3>4 niveles de temperatura</h3>
+          <p>Se adapta a tu tipo de cabello.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="check-mark">&check;</span>
+        <div>
+          <h3>Voltaje universal</h3>
+          <p>Ideal para llevar de viaje: 100-240V.</p>
+        </div>
+      </div>
+    </div>
+    <div class="ideal-chips">
+      <span class="ideal-chip">Uso diario</span>
+      <span class="ideal-chip">Cabello con frizz</span>
+      <span class="ideal-chip">Viajes</span>
+      <span class="ideal-chip">Todo tipo de cabello</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ESPECIFICACIONES ================= -->
+<section class="section-soft reveal">
+  <div class="wrap">
+    <h2 class="section-title">Especificaciones</h2>
+    <table class="specs-table">
+      <tr><td>Material</td><td>Aluminio + cerámico</td></tr>
+      <tr><td>Temperatura máxima</td><td>180°C</td></tr>
+      <tr><td>Niveles de calor</td><td>1 a 4</td></tr>
+      <tr><td>Calentamiento</td><td>3 a 5 minutos</td></tr>
+      <tr><td>Voltaje</td><td>Dual 100–240V</td></tr>
+      <tr><td>Cable</td><td>Giratorio 360°</td></tr>
+      <tr><td>Vida útil placa</td><td>+50,000 usos</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA + FOTO EN USO ================= -->
+<section class="reveal">
+  <div class="wrap">
+    <h2 class="section-title">Así de fácil de usar</h2>
+    <div class="product-shot">
+      <!-- Sube aqui la foto de la persona usando el cepillo -->
+      <div class="placeholder-label">[ Foto del producto en uso<br>ej. "producto-en-uso.jpg" ]</div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <div><h3>Conecta y ajusta</h3><p>Elige el nivel de temperatura.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <div><h3>Espera 3 a 5 minutos</h3><p>Hasta que alcance el calor óptimo.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <div><h3>Desliza de raíz a puntas</h3><p>En secciones, con un movimiento suave.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num">4</span>
+        <div><h3>Disfruta tu cabello liso</h3><p>Brillante y sin frizz, listo para salir.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OFERTA ================= -->
+<section class="section-soft reveal">
+  <div class="wrap">
+    <div class="offer-box">
+      <p class="old-price">$39.99</p>
+      <p class="new-price">$25.00</p>
+      <p class="offer-note">Pago contra entrega &middot; Envío incluido</p>
+      <a href="#pedido" class="btn-cta">Pedir ahora</a>
+      <p class="stock-note">Quedan pocas unidades para este mes</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FORMULARIO ================= -->
+<section id="pedido">
+  <div class="wrap">
+    <h2 class="section-title">Completa tus datos y te escribimos para confirmar</h2>
+    <div class="form-card">
+      <div id="form-status"></div>
+      <form id="orderForm">
+        <div class="field">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Ej. María Pérez">
+        </div>
+        <div class="field">
+          <label for="whatsapp">Número de WhatsApp</label>
+          <input type="tel" id="whatsapp" name="whatsapp" required placeholder="Ej. 0991234567">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="provincia">Provincia</label>
+            <select id="provincia" name="provincia" required>
+              <option value="" disabled selected>Selecciona</option>
+              <option>Azuay</option><option>Bolívar</option><option>Cañar</option>
+              <option>Carchi</option><option>Chimborazo</option><option>Cotopaxi</option>
+              <option>El Oro</option><option>Esmeraldas</option><option>Galápagos</option>
+              <option>Guayas</option><option>Imbabura</option><option>Loja</option>
+              <option>Los Ríos</option><option>Manabí</option><option>Morona Santiago</option>
+              <option>Napo</option><option>Orellana</option><option>Pastaza</option>
+              <option>Pichincha</option><option>Santa Elena</option>
+              <option>Santo Domingo de los Tsáchilas</option><option>Sucumbíos</option>
+              <option>Tungurahua</option><option>Zamora Chinchipe</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad" required placeholder="Ej. Guayaquil">
+          </div>
+        </div>
+        <div class="field">
+          <label for="direccion">Dirección de entrega</label>
+          <input type="text" id="direccion" name="direccion" required placeholder="Calle principal y secundaria">
+        </div>
+        <div class="field">
+          <label for="cantidad">Cantidad</label>
+          <select id="cantidad" name="cantidad" required>
+            <option value="1">1 unidad</option>
+            <option value="2">2 unidades</option>
+            <option value="3">3 unidades</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="referencia">Referencia (opcional)</label>
+          <input type="text" id="referencia" name="referencia" placeholder="Ej. Casa color celeste, junto a la tienda">
+        </div>
+        <button type="submit" class="btn-cta" id="submitBtn">Confirmar mi pedido</button>
+        <p class="form-note">No pagas nada ahora. Solo confirmamos por WhatsApp y pagas al recibir.</p>
+
+        <div class="form-divider"><span>O</span></div>
+
+        <a href="https://wa.me/593978885936?text=Hola%2C%20estoy%20interesado%2Fa%20en%20el%20Cepillo%20Alisador%20Multifuncional%2C%20%C2%BFme%20pueden%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank" rel="noopener" class="btn-whatsapp" id="whatsappBtn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.74 1.2h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.51 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.39c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.55-3.7 8.24-8.25 8.24zm4.52-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.53.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.47-.01-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+          Prefiero escribir por WhatsApp
+        </a>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="section-soft">
+  <div class="wrap">
+    <h2 class="section-title">Preguntas frecuentes</h2>
+    <div class="faq-item">
+      <h3>¿Cuándo pago?</h3>
+      <p>Pagas en efectivo cuando el repartidor te entrega el paquete en tu casa. Nada por adelantado.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cuánto demora la entrega?</h3>
+      <p>Entre 24 y 48 horas en Guayaquil, y de 2 a 4 días en el resto del país.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Sirve para cualquier tipo de cabello?</h3>
+      <p>Sí, sus 4 niveles de temperatura se adaptan a cabello fino, grueso, liso u ondulado.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cómo me contactan?</h3>
+      <p>Te escribimos por WhatsApp al número que dejes en el formulario para coordinar la entrega.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Tiene garantía?</h3>
+      <p>Sí, si el producto llega dañado o no funciona, se cambia sin costo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMPORTANTE ================= -->
+<section class="reveal">
+  <div class="wrap">
+    <div class="notice-box">
+      <strong>Importante:</strong>
+      <ul>
+        <li>No usar sobre cabello completamente mojado.</li>
+        <li>Evitar contacto con agua o humedad.</li>
+        <li>Dejar enfriar antes de guardar.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  El Mercadito &middot; Guayaquil, Ecuador<br>
+  Contacto: WhatsApp al confirmar tu pedido
+</footer>
+
+<div class="sticky-cta">
+  <a href="#pedido" class="btn-cta">Pedir ahora &middot; $25.00</a>
+</div>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-spinner"></div>
+  <p>Enviando tu pedido...</p>
+</div>
+
+<script>
+  // ============================================================
+  // CONFIGURACION: URL del Google Apps Script (misma de siempre)
+  // ============================================================
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzW5sx1jVGFJBWWd9JQ7sDmcB-DANwxRcrkdPhV3dG3356c-CSchDAq7V5TR-5i64fmSg/exec";
+
+  // ---------- Altura real del topbar fijo, para el margen del hero ----------
+  function setTopbarHeight() {
+    const topbar = document.getElementById('topbar');
+    if (topbar) {
+      document.documentElement.style.setProperty('--topbar-h', topbar.offsetHeight + 'px');
+    }
+  }
+  setTopbarHeight();
+  window.addEventListener('resize', setTopbarHeight);
+
+  // ---------- Animación de aparición al hacer scroll ----------
+  (function () {
+    const items = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window) || !items.length) {
+      items.forEach(function (el) { el.classList.add('is-visible'); });
+      return;
+    }
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+    items.forEach(function (el) { observer.observe(el); });
+  })();
+
+  // ---------- Botón de WhatsApp directo: registra interés en el píxel ----------
+  const whatsappBtn = document.getElementById('whatsappBtn');
+  if (whatsappBtn) {
+    whatsappBtn.addEventListener('click', function () {
+      if (typeof fbq === 'function') {
+        fbq('track', 'Contact');
+      }
+    });
+  }
+
+  // ---------- Envío del formulario ----------
+  const form = document.getElementById('orderForm');
+  const statusBox = document.getElementById('form-status');
+  const submitBtn = document.getElementById('submitBtn');
+  const loadingOverlay = document.getElementById('loadingOverlay');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    statusBox.style.display = 'none';
+    statusBox.className = '';
+
+    const data = {
+      nombre: document.getElementById('nombre').value.trim(),
+      whatsapp: document.getElementById('whatsapp').value.trim(),
+      provincia: document.getElementById('provincia').value,
+      ciudad: document.getElementById('ciudad').value.trim(),
+      direccion: document.getElementById('direccion').value.trim(),
+      referencia: document.getElementById('referencia').value.trim(),
+      cantidad: document.getElementById('cantidad').value,
+      producto: "Cepillo Alisador Plancha Multifuncional",
+      precio: "25.00",
+      fecha: new Date().toLocaleString('es-EC', { timeZone: 'America/Guayaquil' })
+    };
+
+    submitBtn.disabled = true;
+    loadingOverlay.classList.add('is-visible');
+
+    if (typeof fbq === 'function') {
+      fbq('track', 'InitiateCheckout', {
+        content_name: data.producto,
+        value: parseFloat(data.precio),
+        currency: 'USD'
+      });
+    }
+
+    fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
+    .then(function () {
+      window.location.href = 'gracias.html';
+    })
+    .catch(function (err) {
+      loadingOverlay.classList.remove('is-visible');
+      submitBtn.disabled = false;
+      statusBox.textContent = 'Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp.';
+      statusBox.className = 'error';
+      statusBox.style.display = 'block';
+    });
+  });
+</script>
+
+</body>
+</html>
